@@ -7,7 +7,7 @@ public class RedisExample {
     public static void main(String[] args) {
         // Kết nối tới Redis server đang chạy trên localhost và cổng mặc định 6379
         try (Jedis jedis = new Jedis("localhost", 6379)) {
-
+String a="dsada";
             // Thực hiện một số thao tác cơ bản
             jedis.set("myKey", "Hello, Redis!");
             String value = jedis.get("myKey");
